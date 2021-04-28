@@ -4,6 +4,6 @@
 ![Before](https://user-images.githubusercontent.com/40377397/115071821-a2765080-9eee-11eb-91cb-51f0ef0d0452.png)
 ![After](https://user-images.githubusercontent.com/40377397/115071779-925e7100-9eee-11eb-89f1-0550fe4b3643.png)
 
-**UPDATED  
+** UPDATED  
 now shows line numbers and has the code type inside the code block for a cleaner look
 ![Updated](https://i.imgur.com/Qd5oJj3.png)
