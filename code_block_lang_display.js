@@ -41,7 +41,7 @@ function refreshData()
     x = 1;  // 5 Seconds
     let code_blocks = document.getElementsByTagName("code");
     for(var i = 0; i < code_blocks.length; i++){
-        var code_type = document.getElementsByTagName("code")[0].className.split(" ").splice(-1,1);
+        var code_type = code_blocks[i].className.split(" ").splice(-1,1);
       
         var code_type_changed = code_type in code_translation_dic ? code_translation_dic[code_type] : code_type; // Get long name for code || js -> javascript, py -> python, cs -> c-sharp. ect
       
