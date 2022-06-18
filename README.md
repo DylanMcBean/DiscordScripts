@@ -8,9 +8,3 @@
 **UPDATED**  
 now shows line numbers and has the code type inside the code block for a cleaner look
 ![Updated](https://i.imgur.com/Qd5oJj3.png)
-
-
-## Better Images
-the better images script adds some more details about an image when you click on them now. along with a reverse image search button that alloows you to revers image search for the image online
-
-![Preview](https://i.imgur.com/YgNnqAT.png)
