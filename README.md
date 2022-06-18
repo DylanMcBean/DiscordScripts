@@ -1,3 +1,6 @@
+# You only need to download the "discord_custom_scripts" folder and run the code in that. the other peices of code are just here to be able to be downloaded by the script and so people can look through them
+
+
 # [DiscordScripts](https://vimeo.com/539929933)
 ## Code Block
 **Random fun little script to change client side visual effects in discord**
