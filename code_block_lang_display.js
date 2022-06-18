@@ -39,10 +39,9 @@ code_translation_dic = { //5 on each line
 function refreshData()
 {
     x = 1;  // 5 Seconds
-    let code_blocks = document.getElementsByClassName("scrollbarGhostHairline-1mSOM1 scrollbar-3dvm_9 hljs");
+    let code_blocks = document.getElementsByTagName("code");
     for(var i = 0; i < code_blocks.length; i++){
-      if (!code_blocks[i].attributes[0].value.includes("codeView-1JPDeA")){
-        var code_type = code_blocks[i].attributes[0].value.replace("scrollbarGhostHairline-1mSOM1 scrollbar-3dvm_9 hljs","").replace(" ","");
+        var code_type = document.getElementsByTagName("code")[0].className.split(" ").splice(-1,1);
       
         var code_type_changed = code_type in code_translation_dic ? code_translation_dic[code_type] : code_type; // Get long name for code || js -> javascript, py -> python, cs -> c-sharp. ect
       
@@ -70,7 +69,6 @@ function refreshData()
             }
           }
         }
-      }
     }
  
     setTimeout(refreshData, x*1000);
