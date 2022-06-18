@@ -1,5 +1,5 @@
 let fs = require("fs");
-let mainDir = "/custom-scripts/";
+let mainDir = "/../custom-scripts/";
 let files = fs.readdirSync('.' + mainDir);
 let loaded = failed = 0;
 
